@@ -27,6 +27,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+	<distributionManagement>
+  <repository>
+    <id>release_lync</id>
+    <url>http://192.168.33.10:8081/nexus/content/repositories/release_lync</url>
+  </repository>
+		 <snapshotRepository>
+    <id>snapshot_lync</id>
+    <url>http://192.168.33.10:8081/nexus/content/repositories/snapshot_lync</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <build>
     <finalName>satish</finalName>
